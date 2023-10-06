@@ -15,34 +15,34 @@ public class MouseEventFrame extends Frame implements MouseListener {
 
         @Override
         public void mouseClicked(MouseEvent e) {
-            // TODO Auto-generated method stub
-            System.out.println("Clinked : " + e.getPoint()) ;
+            // 제자리에서 클릭했을때 발생 (단,누른후 다른곳으로 이동하게 되면 발생하지 않음.)
+            System.out.println("Clinked : " + e.getPoint()) ;  
         }
 
         @Override
         public void mousePressed(MouseEvent e) {
-            // TODO Auto-generated method stub
+            // 클릭하는 순간 발생하는 이밴트
             System.out.println("Pressed : " + e.getPoint()) ;
 
         }
 
         @Override
         public void mouseReleased(MouseEvent e) {
-            // TODO Auto-generated method stub
+            // 클릭후 클릭을 때는 순간 발생하는 이벤트
             System.out.println("Release : " + e.getPoint()) ;
 
         }
 
         @Override
         public void mouseEntered(MouseEvent e) {
-            // TODO Auto-generated method stub
+            // 프레임에 마우스가 들어가는 순간 발생하는 이밴트
             System.out.println("Entered : " + e.getPoint()) ;
 
         }
 
         @Override
         public void mouseExited(MouseEvent e) {
-            // TODO Auto-generated method stub
+            // 프래임에 마우스가 밖으로 나가는 순간 발생하는 이벤트
             System.out.println("Exited : " + e.getPoint()) ;
 
         }
