@@ -1,18 +1,7 @@
-## Getting Started
+# 마우스의 움직임을 확인하라
+1. 프레임에 마우스 이벤트 핸들러를 등록한다.
+2. 이벤트 핸들러를 통해 들어오는 마우스 이벤트를 확인한다.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+실행결과
 
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+![event_driven_programming_mouse_event](https://github.com/Hongkyoungseuk/TestMouseEvent/assets/117065210/e2d02e97-16f4-4bea-8931-4760776ce8ab)
